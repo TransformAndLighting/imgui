@@ -32,9 +32,14 @@ set_target_properties (${PROJECT_NAME} PROPERTIES DEBUG_POSTFIX "d")
 INSTALL(TARGETS ${PROJECT_NAME}
 	RUNTIME DESTINATION bin
 	LIBRARY DESTINATION lib
-	ARCHIVE DESTINATION lib)
+	ARCHIVE DESTINATION lib
+)
 
 INSTALL(FILES
 	${IMGUI_DIR}/imconfig.h
 	${IMGUI_DIR}/imgui.h
-	DESTINATION include/imgui)
+	${IMGUI_DIR}/imstb_rectpack.h
+	${IMGUI_DIR}/imstd_textedit.h
+	${IMGUI_DIR}/imstd_truetype.h
+	DESTINATION include/imgui
+)
