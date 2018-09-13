@@ -11,8 +11,8 @@ set(IMGUI_SOURCES
 	${IMGUI_DIR}/imgui_internal.h
 	${IMGUI_DIR}/imgui_widgets.cpp
 	${IMGUI_DIR}/imstb_rectpack.h
-	${IMGUI_DIR}/imstd_textedit.h
-	${IMGUI_DIR}/imstd_truetype.h
+	${IMGUI_DIR}/imstb_textedit.h
+	${IMGUI_DIR}/imstb_truetype.h
 )
 
 add_library(${PROJECT_NAME} STATIC ${IMGUI_SOURCES})
