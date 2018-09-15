@@ -40,7 +40,7 @@ INSTALL(FILES
 	${IMGUI_DIR}/imgui.h
 	${IMGUI_DIR}/imgui_internal.h
 	${IMGUI_DIR}/imstb_rectpack.h
-	${IMGUI_DIR}/imstd_textedit.h
-	${IMGUI_DIR}/imstd_truetype.h
+	${IMGUI_DIR}/imstb_textedit.h
+	${IMGUI_DIR}/imstb_truetype.h
 	DESTINATION include/imgui
 )
