@@ -38,6 +38,7 @@ INSTALL(TARGETS ${PROJECT_NAME}
 INSTALL(FILES
 	${IMGUI_DIR}/imconfig.h
 	${IMGUI_DIR}/imgui.h
+	${IMGUI_DIR}/imgui_internal.h
 	${IMGUI_DIR}/imstb_rectpack.h
 	${IMGUI_DIR}/imstd_textedit.h
 	${IMGUI_DIR}/imstd_truetype.h
